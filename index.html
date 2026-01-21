@@ -2,52 +2,60 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Design & CSS Studienprojekt</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professionelles CSS-Layout</title>
+    <!-- ربط ملف CSS خارجي -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- مكتبة Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-<header class="hero">
-    <h1> Lernen mit CSS</h1>
-    <p>Eine kleine Sammlung moderner Gestaltungsideen</p>
-</header>
+    <header>
+        <h1>Professionelles CSS-Layout</h1>
+        <p>Ein Design, das Ihre CSS-Fähigkeiten mit Bildern, Texten und Icons zeigt</p>
+    </header>
 
-<section class="text-box">
-    <h2>über mich</h2>
-    <p>
-        mein name ist hashem fihan ich bin 26 jahre alt und ledig
-      ich komme aus syrien genauer gesagt aus der stadt idlib ich habe in der Türkei informatika studiert und mein studium im jahr 2023 erfolgreisch abgeschlossen . meine muttersprache ist Arabisch außerdem spreche iche Türkisch und habe ich Deutsch auf dem nivau b1 gelern gerade lerne ich weite deutsch aud dem nivau b2 in singen und spreche ich gut Englisch . ich lebe seit 2 jahren in Deutschland momentan wohne ich in Reichenau .
-    </p>
-</section>
+    <div class="container">
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=1" alt="Bild 1">
+            <div class="card-content">
+                <h3>Kartentitel 1</h3>
+                <p>Dieser Beispieltext zeigt, wie man Texte innerhalb einer CSS-Karte elegant formatiert.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
 
-<section class="gallery">
-    <h2>Formen & Anordnung</h2>
-    <div class="cards">
-        <div class="shape">Hashem</div>
-        <div class="shape">Fehed</div>
-        <div class="shape">Fihan</div>
-        <div class="shape">Engineer</div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=2" alt="Bild 2">
+            <div class="card-content">
+                <h3>Kartentitel 2</h3>
+                <p>Diese Karten können verwendet werden, um Ihre Projekte oder Bilder auf ansprechende Weise zu präsentieren.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=3" alt="Bild 3">
+            <div class="card-content">
+                <h3>Kartentitel 3</h3>
+                <p>Hover-Effekte machen die Seite dynamisch und professionell.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
     </div>
-</section>
-
-<section class="profile">
-    <div class="glass-card">
-        <h3>Persönlicher Stil</h3>
-        <p>
-            Durch das Zusammenspiel von Typografie, Abständen und weichen Übergängen
-            entsteht eine ruhige und moderne Atmosphäre.
-        </p>
-    </div>
-</section>
-
-<section class="interaction">
-    <h2>Interaktion</h2>
-    <button class="soft-btn">Mehr entdecken</button>
-</section>
-
-<footer>
-    <p>Gestaltung & Umsetzung – Hashem Fihan</p>
-</footer>
 
 </body>
 </html>
